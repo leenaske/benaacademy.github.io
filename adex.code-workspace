@@ -1,0 +1,25 @@
+{
+	"folders": [
+		{
+			"name": "book-web",
+			"path": "../book-web"
+		},
+		{
+			"name": "gym-website",
+			"path": "../gym-website"
+		},
+		{
+			"name": "dams",
+			"path": "../dams"
+		},
+		{
+			"name": "NovusHaus_16-09-23-main",
+			"path": "D:/app/NovusHaus_16-09-23-main"
+		},
+		{
+			"name": "adex-master",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
