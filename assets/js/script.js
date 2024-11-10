@@ -29,12 +29,6 @@ const toggleNavbar = function () {
 }
 
 addEventOnElements(navTogglers, "click", toggleNavbar);
-/*navbar toggle for mobile */
-document.getElementById('menu-btn').addEventListener('click', function () {
-  const navLinks = document.getElementById('nav-links');
-  navLinks.classList.toggle('active');
-});
-
 
 
 
