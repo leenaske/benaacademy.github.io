@@ -10,8 +10,11 @@
   -->
     <title>NYABOSONGO BENA ACADEMY</title>
     <meta name="title" content="NYABOSONGO BENA ACADEMY" />
-    <meta name="description" content="This is a school html template made by
-    GisusuTECH"" />
+    <meta
+      name="description"
+      content="This is a school html template made by
+    GisusuTECH"
+    />
 
     <!-- 
     - favicon
@@ -32,7 +35,7 @@
     - custom css link
   -->
     <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="stylesheet" href="./assets/css/pricacy.css" />
+    <link rel="stylesheet" href="./assets/css/about.css" />
 
     <!-- 
     - preload images
@@ -186,7 +189,7 @@
                         style="--width: 575; --height: 550"
                       >
                         <img
-                          src="./assets/images/hero-slide-2.jpg"
+                          src="./assets/images/hero-slide-3.jpg"
                           width="575"
                           height="550"
                           alt="hero banner"
@@ -206,7 +209,7 @@
                       style="--width: 575; --height: 550"
                     >
                       <img
-                        src="./assets/images/hero-slide-3.jpg"
+                        src="./assets/images/about-22.jpg"
                         width="575"
                         height="550"
                         alt=""
@@ -237,88 +240,74 @@
         </section>
 
         <!-- 
-        privacy section
+      about
       -->
-        <div class="privacy-container">
-          <h1 class="privacy-title">Privacy Policy</h1>
-          <p class="privacy-text">
-            At Nyabosongo Bena Academy, we are committed to protecting your
-            privacy. This privacy policy outlines how we collect, use, and
-            protect your personal information when you use our website,
-            www.nyabosongobenaacademy.com.
-          </p>
-
-          <section>
-            <h2 class="section-title">1. Information We Collect</h2>
-            <p class="privacy-text">
-              We may collect personal information such as your name, email
-              address, phone number, and any other details you provide when
-              filling out forms on our website.
+        <section class="about-section">
+          <div class="about-content">
+            <h1 class="about-title">About Us</h1>
+            <p class="about-text">
+              Nyabosongo Bena Academy is dedicated to providing a nurturing
+              environment where students can achieve academic excellence and
+              personal growth. We are committed to fostering a learning
+              atmosphere that inspires curiosity, innovation, and respect for
+              others.
             </p>
-          </section>
-
-          <section>
-            <h2 class="section-title">2. How We Use Your Information</h2>
-            <p class="privacy-text">
-              The information we collect is used to provide better services,
-              respond to your inquiries, and improve our website’s
-              functionality.
+            <p class="about-text">
+              Our team of experienced educators is passionate about guiding each
+              student to reach their full potential. We believe in empowering
+              our students with knowledge, critical thinking skills, and values
+              that will help them succeed in an ever-changing world.
             </p>
-          </section>
 
-          <section>
-            <h2 class="section-title">3. Data Security</h2>
-            <p class="privacy-text">
-              We implement various security measures to protect your
-              information. However, please note that no data transmission over
-              the internet is 100% secure.
-            </p>
-          </section>
+            <div class="about-mission-vision">
+              <h2 class="motto-title">Our Motto</h2>
+              <p class="motto-text">"Empowering Minds, Building Futures"</p>
 
-          <section>
-            <h2 class="section-title">4. Sharing of Information</h2>
-            <p class="privacy-text">
-              We do not share, sell, or rent your personal information to third
-              parties unless we have your consent or are required to by law.
-            </p>
-          </section>
+              <h2 class="mission-title">Our Mission</h2>
+              <p class="mission-text">
+                To provide a holistic and inclusive education that fosters a
+                love for learning, nurtures leadership, and encourages
+                compassion and integrity in all students.
+              </p>
 
-          <section>
-            <h2 class="section-title">5. Cookies</h2>
-            <p class="privacy-text">
-              Our website may use cookies to enhance user experience. You can
-              adjust your browser settings to refuse cookies if you prefer.
-            </p>
-          </section>
-
-          <section>
-            <h2 class="section-title">6. Changes to This Policy</h2>
-            <p class="privacy-text">
-              We reserve the right to update this policy at any time. Please
-              review this page periodically for any changes.
-            </p>
-          </section>
-
-          <section>
-            <h2 class="section-title">7. Contact Us</h2>
-            <p class="privacy-text">
-              If you have questions or concerns about our Privacy Policy, please
-              contact us at
-              <a
-                href="mailto:info@nyabosongobenaacademy.com"
-                class="privacy-link"
-                >info@nyabosongobenaacademy.com</a
-              >.
-            </p>
-          </section>
-
-          <div class="privacy-footer">
-            <p>&copy; Nyabosongo Bena Academy, 2024. All rights reserved.</p>
+              <h2 class="vision-title">Our Vision</h2>
+              <p class="vision-text">
+                To be a leading educational institution known for excellence in
+                academics, character development, and community service.
+              </p>
+            </div>
           </div>
-        </div>
+
+          <!-- Image Slider Container -->
+          <div class="about-image">
+            <div class="slider">
+              <img
+                src="assets/images/about-22.jpg"
+                alt="School Image 1"
+                class="slide active"
+              />
+              <img
+                src="./assets/images/about-44.jpg"
+                alt="School Image 2"
+                class="slide"
+              />
+              <img
+                src="./assets/images/about-33.jpg"
+                alt="School Image 3"
+                class="slide"
+              />
+
+              <!-- Navigation Buttons -->
+              <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+              <button class="next" onclick="moveSlide(1)">&#10095;</button>
+            </div>
+          </div>
+        </section>
+
+        <script src="./assets/js/about.js"></script>
 
         <!-- 
-   privacy ends here
+     about
       -->
 
         <section class="cta" aria-label="call to action">
